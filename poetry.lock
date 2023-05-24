@@ -4,7 +4,7 @@
 name = "alembic"
 version = "1.11.1"
 description = "A database migration tool for SQLAlchemy."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -100,7 +100,7 @@ toml = ["tomli"]
 name = "greenlet"
 version = "2.0.2"
 description = "Lightweight in-process concurrent programming"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
 files = [
@@ -204,7 +204,7 @@ requirements-deprecated-finder = ["pip-api", "pipreqs"]
 name = "mako"
 version = "1.2.4"
 description = "A super-fast templating language that borrows the best ideas from the existing templating languages."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -249,7 +249,7 @@ testing = ["coverage", "pytest", "pytest-cov", "pytest-regressions"]
 name = "markupsafe"
 version = "2.1.2"
 description = "Safely add untrusted strings to HTML/XML markup."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -493,7 +493,7 @@ jupyter = ["ipywidgets (>=7.5.1,<9)"]
 name = "sqlalchemy"
 version = "2.0.15"
 description = "Database Abstraction Library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -601,7 +601,7 @@ files = [
 name = "typing-extensions"
 version = "4.6.1"
 description = "Backported and Experimental Type Hints for Python 3.7+"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -612,4 +612,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "12d6494585215decd577d5fb46237f8b1db77c8a8a9ba12eae781a0ef2582e28"
+content-hash = "73f03f6f9bd0510641f1ae6cfafbc965be3f9675c7fd7ea3a7760dd9c6824e37"
